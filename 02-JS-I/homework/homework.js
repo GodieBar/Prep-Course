@@ -77,38 +77,57 @@ console.log(resultado);  // Esto imprimirá true
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
-  // Tu código:
-  var micadena = tienenMismaLongitud (1, 3)
-  
+  return str1.length === str2.length;
 }
+
+// Ejemplo de uso:
+var resultado = tienenMismaLongitud("hola", "adios");
+console.log(resultado);  // Esto imprimirá false, ya que las longitudes son diferentes
+
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
-  // Tu código:
-  var micadena =menosQueNoventa (1)
+  return num < 90;
 }
+
+// Ejemplo de uso:
+var resultado = menosQueNoventa(1);
+console.log(resultado);  // Esto imprimirá true, ya que 1 es menor que 90
+
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
-  // Tu código:
-var micadena =mayorQueCincuenta(1)  
+  return num > 50;
 }
+
+// Ejemplo de uso:
+var resultado = mayorQueCincuenta(1);
+console.log(resultado);  // Esto imprimirá false, ya que 1 no es mayor que 50
+
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  var micadnea =obtenerResto(1, 2)
+  return x % y;
 }
+
+// Ejemplo de uso:
+var resultado = obtenerResto(1, 2);
+console.log(resultado);  // Esto imprimirá 1, ya que el resto de la división de 1 entre 2 es 1
+
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
-  // Tu código:
-  return num % 2 === 0
-  
+  return num % 2 === 0;
 }
+
+// Ejemplo de uso:
+var resultado = esPar(4);
+console.log(resultado);  // Esto imprimirá true, ya que 4 es un número par
+
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
